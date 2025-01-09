@@ -1,3 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    background: red;
+  background: #7895ff;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+main {
+  height: 100%;
+}
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 70px;
+  color: #ff66ae;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 50px;
+  color: #ff66ae;
+  margin-top: 90px;
+}
+
+h3 {
+  font-family: "Amatic SC", serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 160px;
+  margin-left: 800px;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 50px;
+  color: #ff66ae;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  width: fit-content;
+  padding: 35px 250px;
+  cursor: pointer;
+  border-radius: 45px;
+  box-shadow: 4px 4px 85px black;
+  border: 1px solid rgb(0, 0, 0);
+  transition: transform 350ms ease;
+  background: white;
+  text-decoration: none;
+}
+.button:hover {
+  transform: scale3d(2.3, 2.1, 2.4);
+}
+.hyi {
+  background: #00ecfd;
+}
+.title-chmo {
+  font-family: "Rubik Mono One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
